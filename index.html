@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rahil Khan — PHP Full Stack Developer. Building secure, scalable web applications with PHP, Laravel, Python & React." />
+  <meta name="author" content="Rahil Khan" />
+  <meta property="og:title" content="Rahil Khan | Full Stack Developer" />
+  <meta property="og:description" content="PHP Full Stack Developer specializing in REST APIs, authentication systems, and scalable web applications." />
+  <meta property="og:type" content="website" />
+  <title>Rahil Khan | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>R</text></svg>" />
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="gradient-orb orb-1" aria-hidden="true"></div>
+  <div class="gradient-orb orb-2" aria-hidden="true"></div>
+  <div class="gradient-orb orb-3" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav-header" id="nav">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-mark">R</span>
+        <span class="logo-text">Rahil<span class="accent">.</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/RahilKhan_Resume.pdf" class="nav-cta" download>Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="hero-eyebrow">
+            <span class="status-dot"></span>
+            Available for opportunities
+          </p>
+          <h1 class="hero-title">
+            Hi, I'm <span class="hero-name">Rahil Khan</span>
+          </h1>
+          <p class="hero-role">PHP Full Stack Developer</p>
+          <p class="hero-desc">
+            I build secure, scalable web applications — from RESTful APIs and authentication systems
+            to polished frontends. Currently crafting live PHP products at OneTouchGrade.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+          </div>
+          <div class="hero-social">
+            <a href="https://github.com/Rahil011" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A8.02 8.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/rahil-khan-678278213" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="mailto:rahil4356@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+          <div class="photo-frame">
+            <div class="photo-ring"></div>
+            <img src="assets/profile.png" alt="Rahil Khan — Full Stack Developer" class="hero-photo" width="420" height="520" />
+            <div class="photo-badge">
+              <span class="badge-number">2+</span>
+              <span class="badge-label">Years Experience</span>
+            </div>
+          </div>
+          <div class="floating-card card-1">
+            <span class="fc-icon">⚡</span>
+            <div>
+              <strong>Live Projects</strong>
+              <span>PHP · Laravel · APIs</span>
+            </div>
+          </div>
+          <div class="floating-card card-2">
+            <span class="fc-icon">🔒</span>
+            <div>
+              <strong>Security First</strong>
+              <span>OTP · reCAPTCHA v3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="marquee-wrap" aria-hidden="true">
+        <div class="marquee">
+          <span>PHP</span><span>Laravel</span><span>Python</span><span>Django</span><span>React.js</span><span>JavaScript</span><span>MySQL</span><span>REST API</span><span>AWS</span><span>Git</span><span>CodeIgniter</span><span>Tailwind CSS</span>
+          <span>PHP</span><span>Laravel</span><span>Python</span><span>Django</span><span>React.js</span><span>JavaScript</span><span>MySQL</span><span>REST API</span><span>AWS</span><span>Git</span><span>CodeIgniter</span><span>Tailwind CSS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Crafting code that <em>scales</em></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Detail-oriented and solution-focused PHP Full Stack Developer with hands-on experience
+              in live project environments. I specialize in integrating RESTful APIs, automating workflows,
+              and enhancing application security through modern authentication techniques.
+            </p>
+            <p>
+              With a strong foundation in Object-Oriented Programming and Data Structures, I thrive in
+              agile teams — delivering scalable, maintainable code that solves real business problems.
+            </p>
+            <ul class="about-facts">
+              <li>
+                <span class="fact-label">Location</span>
+                <span class="fact-value">Lucknow, India</span>
+              </li>
+              <li>
+                <span class="fact-label">Email</span>
+                <a href="mailto:rahil4356@gmail.com" class="fact-value">rahil4356@gmail.com</a>
+              </li>
+              <li>
+                <span class="fact-label">Phone</span>
+                <a href="tel:+919889848122" class="fact-value">+91 9889848122</a>
+              </li>
+              <li>
+                <span class="fact-label">Degree</span>
+                <span class="fact-value">MCA — 82%</span>
+              </li>
+            </ul>
+          </div>
+          <div class="about-stats reveal reveal-delay">
+            <div class="stat-card">
+              <span class="stat-num" data-count="4">0</span>
+              <span class="stat-label">Companies Worked</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-count="6">0</span>
+              <span class="stat-label">Major Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-count="15">0</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-card highlight">
+              <span class="stat-num" data-count="82">0</span>
+              <span class="stat-label">MCA Score %</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Experience</span>
+          <h2 class="section-title">Professional <em>journey</em></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker current"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <time>Feb 2025 — Present</time>
+                <span class="timeline-badge">Current</span>
+              </div>
+              <h3>PHP Full Stack Developer</h3>
+              <p class="timeline-company">OneTouchGrade, Gujarat</p>
+              <ul>
+                <li>Developed and maintained modules in live PHP-based projects, improving stability and performance.</li>
+                <li>Integrated authentication APIs, push APIs, and complex backend calculations for investment tracking.</li>
+                <li>Implemented Google reCAPTCHA v3 and OTP verification to enhance security and prevent bot access.</li>
+                <li>Built automated mail readers to extract and process transactional data efficiently.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <time>Aug 2024 — Feb 2025</time>
+              </div>
+              <h3>IT Support</h3>
+              <p class="timeline-company">Woodrock Infotech Pvt. Ltd., Lucknow</p>
+              <ul>
+                <li>Provided technical assistance for hardware and software issues across desktops, laptops, and peripherals.</li>
+                <li>Monitored and optimized Windows servers for maximum uptime and performance.</li>
+                <li>Managed Active Directory — user accounts, group policies, and access control.</li>
+                <li>Implemented and monitored firewall policies to safeguard networks from threats.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <time>Jul 2024 — Aug 2024</time>
+              </div>
+              <h3>PHP Developer Intern</h3>
+              <p class="timeline-company">Adnecto Technologies, Kannur, Kerala</p>
+              <ul>
+                <li>Built web applications using MVC framework with PHP, HTML, CSS, JavaScript, and Bootstrap.</li>
+                <li>Integrated Razorpay payment gateway for secure e-commerce transactions.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <time>Feb 2024 — May 2024</time>
+              </div>
+              <h3>Software Developer Trainee</h3>
+              <p class="timeline-company">Softpro India Technologies, Lucknow</p>
+              <ul>
+                <li>Revamped CRM website interface with Python/Django backend and custom HTML/CSS frontend — 40% better engagement.</li>
+                <li>Reduced page load times by 30% and increased user satisfaction scores by 25%.</li>
+                <li>Integrated animation library resulting in 30% increase in user interaction and retention.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Tools & <em>technologies</em></h2>
+        </div>
+        <div class="skills-bento reveal">
+          <div class="skill-group skill-lg">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+              <span>PHP</span><span>Python</span><span>JavaScript</span><span>SQL</span><span>Java</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks</h3>
+            <div class="skill-tags">
+              <span>Laravel</span><span>CodeIgniter</span><span>Django</span><span>React.js</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>Tailwind CSS</span><span>AJAX</span>
+            </div>
+          </div>
+          <div class="skill-group skill-lg">
+            <h3>Core Competencies</h3>
+            <div class="skill-tags">
+              <span>OOPS</span><span>REST API</span><span>Git</span><span>AWS</span><span>Postman</span><span>cPanel</span><span>JSON</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Networking</h3>
+            <div class="skill-tags">
+              <span>OSI Model</span><span>TCP/UDP</span><span>Network Topology</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Soft Skills</h3>
+            <div class="skill-tags">
+              <span>Communication</span><span>Collaboration</span><span>Time Management</span><span>Agile</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured <em>projects</em></h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-num">01</span>
+              <div class="project-links">
+                <a href="https://github.com/Rahil011" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A8.02 8.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>CTF — Capture The Flag</h3>
+            <p>Interactive web application for hosting and participating in cybersecurity CTF competitions with dynamic challenges.</p>
+            <div class="project-stack">
+              <span>PHP</span><span>JavaScript</span><span>MySQL</span>
+            </div>
+          </article>
+          <article class="project-card reveal reveal-delay">
+            <div class="project-top">
+              <span class="project-num">02</span>
+              <div class="project-links">
+                <a href="https://github.com/Rahil011" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A8.02 8.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Lunch Ordering System</h3>
+            <p>Full-featured lunch ordering platform with Razorpay payment integration, OTP verification, and favourite item selection.</p>
+            <div class="project-stack">
+              <span>PHP</span><span>CodeIgniter</span><span>JavaScript</span>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-num">03</span>
+              <div class="project-links">
+                <a href="https://github.com/Rahil011/Car-Rental-Webapplication" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A8.02 8.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Car Rental Platform</h3>
+            <p>Web application for managing vehicle rentals with separate auth for customers and agencies, dynamic listings, and booking management.</p>
+            <div class="project-stack">
+              <span>PHP</span><span>JavaScript</span><span>MySQL</span>
+            </div>
+          </article>
+          <article class="project-card reveal reveal-delay">
+            <div class="project-top">
+              <span class="project-num">04</span>
+              <div class="project-links">
+                <a href="https://github.com/Rahil011/CRM-website-using-Django-" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A8.02 8.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>CRM Web Application</h3>
+            <p>Django-powered CRM with lead tracking, contact management, sales pipeline visualization, and interaction logs.</p>
+            <div class="project-stack">
+              <span>Python</span><span>Django</span><span>CSS</span>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-num">05</span>
+              <div class="project-links">
+                <a href="https://github.com/Rahil011/Password-Generator" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A8.02 8.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Password Generator</h3>
+            <p>React-based password generator with customizable length, character sets, and secure random generation.</p>
+            <div class="project-stack">
+              <span>React.js</span><span>JavaScript</span>
+            </div>
+          </article>
+          <article class="project-card reveal reveal-delay">
+            <div class="project-top">
+              <span class="project-num">06</span>
+              <div class="project-links">
+                <a href="https://github.com/Rahil011" target="_blank" rel="noopener noreferrer" aria-label="View all projects">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A8.02 8.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>More on GitHub</h3>
+            <p>Explore all my repositories including To-Do apps, weather apps, and more open-source work.</p>
+            <div class="project-stack">
+              <span>View All →</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Education</span>
+          <h2 class="section-title">Academic <em>background</em></h2>
+        </div>
+        <div class="edu-grid">
+          <article class="edu-card reveal">
+            <div class="edu-icon">🎓</div>
+            <h3>Master of Computer Application</h3>
+            <p class="edu-school">Integral University, Lucknow</p>
+            <div class="edu-meta">
+              <span>2022 — 2024</span>
+              <span class="edu-score">82%</span>
+            </div>
+          </article>
+          <article class="edu-card reveal reveal-delay">
+            <div class="edu-icon">📚</div>
+            <h3>Bachelor of Computer Application</h3>
+            <p class="edu-school">Integral University, Lucknow</p>
+            <div class="edu-meta">
+              <span>2019 — 2022</span>
+              <span class="edu-score">81%</span>
+            </div>
+          </article>
+        </div>
+        <div class="certs reveal">
+          <h3 class="certs-title">Certifications & Achievements</h3>
+          <ul class="certs-list">
+            <li>Letter of Appreciation — Head of Department for Outstanding Project Development</li>
+            <li>An Introduction to SQL — Coursera IBM</li>
+            <li>Succeeding in Web Development: Full Stack and Front End — Coursera IBM</li>
+            <li>Getting Started with Git and GitHub — LinkedIn Learning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <span class="section-tag">Contact</span>
+            <h2 class="section-title">Let's build something <em>great</em></h2>
+            <p>
+              I'm open to freelance projects, full-time roles, and collaborations.
+              Drop me a message and I'll get back to you promptly.
+            </p>
+            <div class="contact-details">
+              <a href="mailto:rahil4356@gmail.com" class="contact-item">
+                <span class="ci-icon">✉️</span>
+                <div>
+                  <strong>Email</strong>
+                  <span>rahil4356@gmail.com</span>
+                </div>
+              </a>
+              <a href="tel:+919889848122" class="contact-item">
+                <span class="ci-icon">📱</span>
+                <div>
+                  <strong>Phone</strong>
+                  <span>+91 9889848122</span>
+                </div>
+              </a>
+              <div class="contact-item">
+                <span class="ci-icon">📍</span>
+                <div>
+                  <strong>Location</strong>
+                  <span>Lucknow, Uttar Pradesh, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal reveal-delay" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-loading" hidden>Sending...</span>
+            </button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="footer-logo">Rahil<span class="accent">.</span></a>
+      <p>Designed & built by Rahil Khan</p>
+      <div class="footer-social">
+        <a href="https://github.com/Rahil011" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/rahil-khan-678278213" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:rahil4356@gmail.com">Email</a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> Rahil Khan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -110,10 +110,12 @@
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     );
 
-    window.location.href = `mailto:rahil4356@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:rahilk.dev@gmail.com
+?subject=${subject}&body=${body}`;
 
     if (formStatus) {
-      formStatus.textContent = 'Opening your email client... If it did not open, email me directly at rahil4356@gmail.com';
+      formStatus.textContent = 'Opening your email client... If it did not open, email me directly at rahilk.dev@gmail.com
+';
       formStatus.className = 'form-status success';
     }
 
